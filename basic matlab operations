@@ -1,0 +1,11 @@
+
+>> clear
+>> vector=[1,2,3];
+>> matrix22=[1,2;3,4];
+>> vec_rand=rand(5,1);
+>> vec_zero=zero(5,1);
+
+>> vec_z=zeros(5,1);
+>> vec_r=rand(1,5);
+>> matrixconj=transpose(matrix22);
+>> dotproduct=dot(matrix22,matrixconj);
