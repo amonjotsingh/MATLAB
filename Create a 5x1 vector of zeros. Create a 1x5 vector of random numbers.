@@ -1,0 +1,5 @@
+To create a matrix of zeros and random numbers we can use “zero” and “rand” command
+
+zero51 = zeros(5,1); 
+ran51 = rand(1,5); 
+
