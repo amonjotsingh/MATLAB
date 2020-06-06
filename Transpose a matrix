@@ -1,4 +1,0 @@
-Transpose of any matrix can be done using” ’ ”. Another syntax is “transpose( matrix_name )”
-
-M_23_t = M_23';
- M_23_t2 = transpose(M_23);
