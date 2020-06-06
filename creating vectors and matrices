@@ -1,0 +1,5 @@
+>> vector=[1,2,3,4];    % creating vector   
+>> matrix_22 = [1,2;3,4];    %creating 2x2 matrix
+
+>> zeros_51= zeros(5,1);    %creating 5x1 matrix of zeros
+>> rand_15 = rand(1,5);     %creating 1x5 matrix of random numbers
