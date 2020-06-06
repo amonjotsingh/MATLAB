@@ -1,0 +1,7 @@
+>> tp=2*pi;     %time period
+>> fr=1/tp;       %frequency  
+>> no_points= 1000;     % no of plotting points
+>> delta=tp/no_points;      %sampling period
+>> trange=0:delta:(tp-delta);   
+>> ysine=sin(2*pi*fr*trange); 
+ >> figure;plot(trange,ysine); grid;    %plotting wave
