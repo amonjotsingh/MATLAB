@@ -1,6 +1,0 @@
-Vectors are included in square brackets[]. Elements can be separated by space, a comma, if you want to create a row vector. Whereas, the column vector is created by separating each element by the semicolon.
-
-%here is a row vector:
- x = [5 4 2 1 33 6];
-% here is a column vector: 
-y = [1; 3; 5; 7; 9]; 
