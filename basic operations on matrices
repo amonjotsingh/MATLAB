@@ -1,0 +1,11 @@
+>> matrix_22_transpose= matrix_22';     %transposing
+>> matrix_22b= [2,3;4,5];       
+>> matrix_33= [2,3,4;5,4,7;8,9,10];
+>> cross_product=cross(matrix_33 (1,:), matrix_33 (2,:));     %cross product 
+>> inner_product=dot(matrix_22,matrix_22_transpose);        %dot product
+>> scalar=3;
+>> complex_vector= rand(3,1) + j*rand(3,1);             % complex matrix
+>> matrixelement_multi= matrix_33(3,3)*matrix_33(2,:);    %matrix multiplication with its own element
+>> concat_mat= [matrix_22 matrix_22b];          % concatinating matrix
+>> ew_multiplication= scalar*matrix_33;     % multiplying matrix with scalar
+
