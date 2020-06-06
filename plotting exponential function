@@ -1,0 +1,7 @@
+>> nplots=1024;   % numberof plot points
+>> xrange=linspace(1,-1,nplots);  % x range declaration
+>> yrange=linspace(-1,1,nplots);  % y range declaration
+>> x_variables=exp(xrange);   % creating exp function for x
+>> y_variables=exp(-yrange);   %creating exp function for y
+>> z=x_variables'*y_variables;  %z variable
+>> figure;surf(xrange,yrange,z);xlabel('x');ylabel('y');zlabel('z');  %plotting the function
