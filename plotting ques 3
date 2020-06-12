@@ -1,0 +1,7 @@
+ques-  y=exp(-0.05*n)*sin(0.1*pi*n + pi/3)
+
+>> for n=0:1:100    %for loop range defined
+y=exp(-0.05*n)*sin(0.1*pi*n + pi/3);    %execution statement 
+stem(n,y);      % plotting stem
+hold on;      % holding plotted value for current loop
+end
