@@ -1,0 +1,7 @@
+>> y=zeros(1,41);   %creating a row vector
+>> for n=-20:1:20   %for loop declaring range 
+y(n+21)=sin(0.1*pi*n)*[unit_step(n)-unit_step(n-10)];   % declaring function of signal and storing value of y at each value of n
+end
+>> yperiodic=[y,y,y,y];   %making that signal four time periodic
+>> m=1:1:164;       %x range declaration
+>> stem(m,yperiodic); % plotting
