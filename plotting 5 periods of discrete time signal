@@ -1,0 +1,6 @@
+>> x=[-2,-1,0,1,2];     %declaring one period
+>> n=1:length(x);       %length of to be X axis   
+ >> xperiodic=[x,x,x,x,x];  %creating 5 perriods of signal x
+>> n=1:length(xperiodic); % declaring x axis
+>> stem(n,xperiodic);   %plotting signal
+
