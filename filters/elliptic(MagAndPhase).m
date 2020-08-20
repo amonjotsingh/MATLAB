@@ -1,3 +1,4 @@
+%% number of resulting poles would be n=7
 clc;
 clear all;
 fs    = 50000;
